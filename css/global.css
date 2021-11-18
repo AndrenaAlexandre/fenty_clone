@@ -150,6 +150,77 @@ body{
 .fifth-row-background{
     width:100%;
     height:600px;
-    background-image: url("../images/4.jpeg");
+    background-image: url("../images/4edit.jpg");
     background-size: cover;
+}
+
+.fifth-row-spacer{
+    width:100%;
+    height:100px;
+}
+
+.fifth-row-box{
+    width:50%;
+    height:500px;
+}
+
+.fifth-row-white-box{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    float: right;
+}
+
+.fifth-row-text-top{
+    margin-top: 80px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.fifth-row-text-middle{
+    margin-top:20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.fifth-row-text-bottom{
+    margin-top:40px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.fifth-row-button{
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    height: 45px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 12px
+}
+.fifth-row-button:hover{
+    cursor: pointer;
+}
+
+.sixth-row-container{
+    width:100%;
+    height:700px;
+    background-color:white;
+}
+
+.sixth-row-top-block{
+    margin-top: 50px;
+    height:100px;
+    width:100%;
+    color: black;
+    text-align: center;
+}
+    
+.sixth-row-top-block p{
+    font-size: 12px;
 }

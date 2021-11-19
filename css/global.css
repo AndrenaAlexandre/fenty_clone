@@ -224,3 +224,59 @@ body{
 .sixth-row-top-block p{
     font-size: 12px;
 }
+.sixth-row-carosel{
+    height:550px;
+    width:calc(100%-160px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* border: solid black 2px */
+}
+.sixth-row-carosel > div{
+    height: 360px;
+    /* border: 2px solid black */
+}
+
+.img5{
+    background-image: url("../images/5.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition-property: background-image;
+    transition-duration: 500ms;
+}
+
+.img5:hover{
+    background-image: url("../images/5hover.png");
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img6{
+    background-image: url("../images/6.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition-property: background-image;
+    transition-duration: 500ms;
+}
+
+.img6:hover{
+    background-image: url("../images/6hover.png");
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img7{
+    background-image: url("../images/7.jpeg");
+    background-size: cover;
+    background-position: center;
+    transition-property: background-image;
+    transition-duration: 500ms;
+}
+
+.img7:hover{
+    background-image: url("../images/7hover.png");
+    cursor: pointer;
+    transform: scale(1.1);
+}
